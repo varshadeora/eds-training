@@ -29,10 +29,6 @@
 .cards.cards-font-color> ul > li {
   color: red; 
 }
-html[dir="rtl"] .cards.cards-font-color > ul > li {
-  color: green;
-}
-
 
 .section.card-section-layout-1{
   background-color: lightcyan; 
@@ -41,8 +37,13 @@ html[dir="rtl"] .cards.cards-font-color > ul > li {
 .section.card-section-layout-2{
   background-color: lightgray; 
 }
+
 .section.card-section-layout-2 .cards li{
   display:flex;
   flex-direction: column-reverse;
   color: orange;;
+}
+
+html[dir="rtl"] .cards.cards-font-color > ul > li {
+  color: green;
 }

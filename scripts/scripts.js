@@ -84,7 +84,6 @@ async function loadEager(doc) {
   const main = doc.querySelector('main');
   // here the ar code will come
   const path = getHref();
- 
   if (path.includes('/ar/')) {
     document.documentElement.lang = 'ar';
     document.documentElement.dir = 'rtl'; // needed to make text from right to left as in arabic style - its part of head
