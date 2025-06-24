@@ -19,6 +19,11 @@
   display: block;
 }
 
+.para-position.columns > div {
+display: flex;
+flex-direction: column-reverse;
+}
+
 @media (width >= 900px) {
   .columns > div {
     align-items: center;

@@ -1,0 +1,11 @@
+/* .highlightbox {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-left: 4px solid #0072ce;
+} */
+
+.highlightbox {
+  background: #bdf3fa;
+  padding: 15px;
+  border-left: 5px solid #c0dcd8;
+}

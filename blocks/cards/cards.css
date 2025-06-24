@@ -25,3 +25,25 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.cards.cards-font-color> ul > li {
+  color: red; 
+}
+
+.section.card-section-layout-1{
+  background-color: lightcyan; 
+}
+
+.section.card-section-layout-2{
+  background-color: lightgray; 
+}
+
+.section.card-section-layout-2 .cards li{
+  display:flex;
+  flex-direction: column-reverse;
+  color: orange;;
+}
+
+html[dir="rtl"] .cards.cards-font-color > ul > li {
+  color: green;
+}
